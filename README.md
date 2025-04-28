@@ -1,29 +1,99 @@
+
 # Hotel Management System (Console Based)
 
-## Project Description
+## 📖 Project Description
 This is a **Console-based Java application** developed as part of the CSE110 course.  
-The system provides basic hotel operations such as room booking, food ordering, customer checkout, and room availability checking. Data persistence is handled through file serialization.
+The system provides basic hotel operations such as:
+- Room booking
+- Food ordering
+- Customer checkout
+- Room availability checking
 
-## Features
-- **Room Booking**  
-  Book Luxury Double, Super Deluxe Double, Luxury Single, or Super Deluxe Single rooms.
-- **Room Availability Check**  
-  View the number of available rooms by room type.
-- **Order Food**  
-  Order food items and attach the cost to the customer's bill.
-- **Checkout and Billing**  
-  Checkout process includes automatic invoice generation for room and food charges.
-- **Data Persistence**  
-  Customer and room data are saved into a file (`InfoOfCustomer.dat`) and loaded upon system start.
+Data is saved between sessions using **file serialization**.
 
-## Technologies Used
+---
+
+## ✨ Features
+- **Room Booking**
+  - Book Luxury Double, Super Deluxe Double, Luxury Single, or Super Deluxe Single rooms.
+- **Room Availability Check**
+  - See the number of available rooms for each room type.
+- **Order Food**
+  - Add food orders to the customer's bill during their stay.
+- **Checkout and Billing**
+  - Generate a full invoice including room charges and food costs.
+- **Data Persistence**
+  - Customer and room data are saved into a file (`InfoOfCustomer.dat`) and loaded automatically.
+
+---
+
+## 🛠️ Technologies Used
 - **Java SE** (Standard Edition)
-- **File I/O** (`FileInputStream`, `FileOutputStream`)
-- **Serialization** (saving and loading Java objects)
-- **Multithreading** (`Runnable` interface)
+- **Object Serialization** (`Serializable`, `ObjectOutputStream`, `ObjectInputStream`)
+- **File Handling** (`File`, `FileInputStream`, `FileOutputStream`)
+- **Multithreading** (`Runnable` Interface)
 - **Exception Handling** (custom exception `NotAvailable`)
 
-## How to Run
-1. **Clone the repository**:
+---
+
+## ▶️ How to Run
+
+1. **Clone the repository:**
    ```bash
    git clone <your-repo-link>
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd HotelManagementSystem
+   ```
+
+3. **Compile the project:**
+   ```bash
+   javac HotelManagementSystem.java
+   ```
+
+4. **Run the application:**
+   ```bash
+   java HotelManagementSystem
+   ```
+
+---
+
+## 📂 File Structure
+- `HotelManagementSystem.java` — Main source file containing:
+  - Room booking
+  - Food order handling
+  - Billing
+  - Room availability checking
+  - Checkout process
+- `InfoOfCustomer.dat` — Serialized data file storing room and customer information.
+
+---
+
+## 🖥️ Project Output
+
+- Welcome screen with date and time
+- Room selection and details
+- Booking confirmation
+- Food menu and order placement
+- Final invoice (bill) after checkout
+- Automatic data saving to file after operations
+
+> (💬 You can add screenshots of the console output if you want.)
+
+---
+
+## 👨‍💻 Author
+
+- **Sadman Ahmmed Chowdhuri **
+- CSE110 - Introduction to Programming
+
+---
+
+## ⚡ Notes
+- This project is designed for learning purposes.
+- Only **console interaction** — no graphical interface.
+- Supports **basic hotel management operations** only.
+```
+
