@@ -34,40 +34,16 @@ Data is saved between sessions using **file serialization**.
 - **Multithreading** (`Runnable` Interface)
 - **Exception Handling** (custom exception `NotAvailable`)
 
----
 
-## ▶️ How to Run
-
-1. **Clone the repository:**
-   ```bash
-   git clone <your-repo-link>
-   ```
-
-2. **Navigate to the project directory:**
-   ```bash
-   cd HotelManagementSystem
-   ```
-
-3. **Compile the project:**
-   ```bash
-   javac HotelManagementSystem.java
-   ```
-
-4. **Run the application:**
-   ```bash
-   java HotelManagementSystem
-   ```
-
----
 
 ## 📂 File Structure
-- `HotelManagementSystem.java` — Main source file containing:
+- HotelManagementSystem.java — Main source file containing:
   - Room booking
   - Food order handling
   - Billing
   - Room availability checking
   - Checkout process
-- `InfoOfCustomer.dat` — Serialized data file storing room and customer information.
+- InfoOfCustomer.dat — Serialized data file storing room and customer information.
 
 ---
 
@@ -80,14 +56,14 @@ Data is saved between sessions using **file serialization**.
 - Final invoice (bill) after checkout
 - Automatic data saving to file after operations
 
-> (💬 You can add screenshots of the console output if you want.)
+
 
 ---
 
 ## 👨‍💻 Author
 
 - **Sadman Ahmmed Chowdhuri **
-- CSE110 - Introduction to Programming
+- CSE110 - OOP 
 
 ---
 
